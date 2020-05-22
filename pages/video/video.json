@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "tex-video": "plugin://tentcentvideo/video"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/picture/picture",
+    "pages/video/video",
+    "pages/map/map",
+    "pages/guest/guest"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff4c91",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false,
+    "navigationBarTitleText": "邀请函"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#ff4c91",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/user-male.png",
+        "selectedIconPath": "/images/1584363682.png",
+        "text": "邀请函"
+      },
+      {
+        "pagePath": "pages/picture/picture",
+        "iconPath": "/images/user-male.png",
+        "selectedIconPath": "/images/1584363682.png",
+        "text": "照片"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "iconPath": "/images/user-male.png",
+        "selectedIconPath": "/images/1584363682.png",
+        "text": "美好时光"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "/images/user-male.png",
+        "selectedIconPath": "/images/1584363682.png",
+        "text": "婚礼地点"
+      },
+      {
+        "pagePath": "pages/guest/guest",
+        "iconPath": "/images/user-male.png",
+        "selectedIconPath": "/images/1584363682.png",
+        "text": "宾客信息"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": ["audio"],
+  "plugins": {
+    "tentcentvideo": {
+      "version": "1.2.2",
+      "provider": "wxa75efa648b60994b"
+    }
+  }
+}

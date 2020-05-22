@@ -1,0 +1,40 @@
+<!-- index.wxml -->
+<view class="player player-{{isPlayingMusic ? 'play' : 'pause' }}" bindtap="play">
+  <image src="/images/music.png" />
+  <image src="/images/play.png" />
+</view>
+<!-- 背景图片 -->
+<image class="bg" src="/images/birds-5159711_1920.jpg" />
+<!-- 内容区域 -->
+<view class="content">
+  <!-- 顶部GIF图片 -->
+  <image src="/images/1584363682.png" class="content-git" />
+  <!-- 标题 -->
+  <view class="content-title">邀请函</view>
+  <!-- 合照 -->
+  <view class="content-avatar">
+    <image src="/images/user-male.png" />
+  </view>
+  <!-- 名字 -->
+  <view class="content-info">
+    <view class="content-name" bindtap="callGroom">
+      <image src="/images/phone.png" />
+      <view>王明</view>
+      <view>新郎</view>
+    </view>
+    <view class="content-wedding">
+      <image src="/images/1584363682.png" />
+    </view>
+    <view class="content-name" bindtap="callBride">
+      <image src="/images/phone.png" />
+      <view>张利</view>
+      <view>新娘</view>
+    </view>
+  </view>
+  <!-- 信息 -->
+  <view class="content-adress">
+    <view>我们撑腰你来我们的婚礼</view>
+    <view>时间：1210：33</view>
+    <view>地点：北京</view>
+  </view>
+</view>

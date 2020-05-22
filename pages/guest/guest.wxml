@@ -1,0 +1,21 @@
+<!-- pages/guest/guest.wxml -->
+<image class="bg" src="/images/birds-5159711_1920.jpg"></image>
+<form bindsubmit="formSubmit">
+    <view class="content">
+        <view>
+            <input name="name" placeholder-class="phcolor" bindblur="nameChange" placeholder="输入你的姓名" />
+        </view>
+        <view>
+            <input name="phone" placeholder-class="phcolor" bindblur="phoneChange" placeholder="输入你的手机号码" />
+        </view>
+        <view>
+            <picker name="num" bindchange="pickerChange" value="{{picker.index}}" range="{{picker.arr}}">
+                参加婚礼人数：{{picker.arr[picker.index]}}
+            </picker>
+        </view>
+        <view>
+            <input name="wish" placeholder-class="phcolor" placeholder="输入你的祝福语" />
+        </view>
+        <button form-type="submit" report-submit>提交</button>
+    </view>
+</form>
